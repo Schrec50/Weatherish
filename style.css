@@ -1,0 +1,41 @@
+
+
+/* Practicing "Box" method*/
+#search {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: white;
+    display: flex; /* Make parent and Child a Flexbox element */
+    justify-content: center; /* Centers both child elements */
+    gap: 10px; /* Adds spacing between each child element */
+}
+
+/*Adding Flex box search bar */
+/* Manipulating each seperate part*/
+#search input {
+    padding: 8px;
+    font-size: 16;
+}
+
+#search button {
+    padding: 8px 12px; /* Shorthand. paramter 1 = top,bottom */
+                       /* paramater 2 = left, right */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Adding Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
